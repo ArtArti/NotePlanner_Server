@@ -11,7 +11,7 @@ dbconnect();
 // Apply CORS middleware
 app.use(
   cors({
-    origin: ["https://note-planner-client.vercel.app"], 
+    origin:"https://note-planner-client.vercel.app", 
     methods: ['GET', 'POST', 'PUT', 'DELETE'], 
     credentials: true,
   })
